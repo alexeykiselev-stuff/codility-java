@@ -1,7 +1,20 @@
+.~lock.*
+*.*~
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+[Bb]in/
+[Oo]bj/
+build/
+distr/
+generated/
+lib/
+
+.settings/
+
+*.tmp
+*.log
+~$*
+*~
 
 # Package Files #
 *.jar
@@ -10,3 +23,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
